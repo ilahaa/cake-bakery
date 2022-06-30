@@ -1,0 +1,421 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Exo+2:wght@600&family=Inter:wght@100&family=Mukta:wght@300&family=Mulish:wght@300&family=Open+Sans:wght@300&family=Oxanium:wght@600&family=PT+Sans+Narrow&family=Pacifico&family=Playfair+Display&family=Poppins:wght@100&display=swap");
+footer {
+  width: 100%;
+  height: 9vh;
+  background-color: #f195b2;
+  color: #fff;
+  position: relative;
+  z-index: 3;
+}
+
+footer span {
+  color: #fff;
+  cursor: pointer;
+}
+
+footer i {
+  color: #fff;
+  cursor: pointer;
+}
+
+nav {
+  width: 100%;
+  height: 15vh;
+}
+
+nav .myImg {
+  background: url(../img/logo-circle-2.png) no-repeat scroll center center;
+  height: 201px;
+  width: 209px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .myImg .logoImg {
+  margin-top: 35px;
+}
+
+nav li {
+  line-height: 85px !important;
+  font-size: 18px;
+  color: #454545;
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 600 !important;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+nav li:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  color: #f195b2;
+}
+
+nav .right-nav {
+  margin-left: 500px;
+}
+
+.homePage {
+  width: 100%;
+  height: 90vh;
+}
+
+.homePage .slider1 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/slider-1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.homePage .slider1 .texts {
+  color: #fff;
+  font-family: "Playfair Display", serif;
+}
+
+.homePage .slider1 .texts h1 {
+  font-size: 65px;
+  font-weight: bold !important;
+}
+
+.homePage .slider1 .texts p {
+  width: 60%;
+  font-size: 20px;
+  line-height: 28px;
+  font-style: italic;
+}
+
+.homePage .slider1 .texts .button {
+  width: 250px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #fff;
+  color: #3e606b;
+  background-color: #fff;
+  border-radius: 40px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600 !important;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+.homePage .slider1 .texts .button:hover {
+  -webkit-transition: .7s;
+  transition: .7s;
+  background-color: #f195b2;
+  border: 1px solid #f195b2;
+  color: #fff;
+}
+
+.homePage .slider2 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/slider-2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.homePage .slider2 .texts {
+  color: #fff;
+  font-family: "Playfair Display", serif;
+}
+
+.homePage .slider2 .texts h1 {
+  font-size: 65px;
+  font-weight: bold !important;
+}
+
+.homePage .slider2 .texts p {
+  width: 60%;
+  font-size: 20px;
+  line-height: 28px;
+  font-style: italic;
+}
+
+.homePage .slider2 .texts .button {
+  width: 250px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #fff;
+  color: #3e606b;
+  background-color: #fff;
+  border-radius: 40px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600 !important;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+.homePage .slider2 .texts .button:hover {
+  -webkit-transition: .7s;
+  transition: .7s;
+  background-color: #f195b2;
+  border: 1px solid #f195b2;
+  color: #fff;
+}
+
+.homePage .menu {
+  width: 100%;
+  height: 90vh;
+  background: url(../img/special-recipe.jpg) no-repeat fixed center center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  line-height: 26px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #797979;
+}
+
+.homePage .menu .line {
+  height: 250px;
+  width: 3px;
+  background: #bcbfc1;
+}
+
+.homePage .menu .cakeTexts h1 {
+  font-size: 55px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.homePage .menu .cakeTexts p {
+  font-size: 25px;
+  color: #fff;
+  font-family: "Lora", serif;
+  font-style: italic;
+  line-height: 30px;
+  padding-right: 80px;
+  margin-bottom: 32px;
+}
+
+.homePage .menu .cakeTexts .button {
+  width: 160px;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  color: #242424;
+  line-height: 45px;
+  font-size: 15px;
+  font-weight: 600;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.homePage .menu .cakeTexts .button:hover {
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: #f195b2;
+}
+
+.homePage .ourCakes {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.homePage .ourCakes .leftImg {
+  background: url(../img/menu-left.png) no-repeat scroll center center;
+  width: 260px;
+  height: 480px;
+  position: absolute;
+  left: 0px;
+}
+
+.homePage .ourCakes .rightImg {
+  background: url(../img/menu-right.png) no-repeat scroll center center;
+  width: 260px;
+  height: 640px;
+  position: absolute;
+  right: 0px;
+}
+
+.homePage .ourCakes .mainTxt h1 {
+  color: #3e606b;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 38px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.homePage .ourCakes .mainTxt p {
+  font-size: 20px;
+  font-family: "Lora", serif;
+  color: #797979;
+  margin-bottom: 0px;
+  line-height: 30px;
+}
+
+.homePage .ourCakes .menu-item {
+  z-index: 3;
+}
+
+.homePage .ourCakes .menu-item h5 {
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #242424;
+  margin-bottom: 10px;
+}
+
+.homePage .ourCakes .menu-item p {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #797979;
+  margin-bottom: 20px;
+}
+
+.homePage .ourCakes .menu-item p span {
+  float: right;
+  color: #e3764b;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+.homePage .aboutUs {
+  width: 100%;
+  height: 90vh;
+  background-color: #f6f6f6;
+  overflow: hidden;
+}
+
+.homePage .aboutUs .item-1 h1 {
+  color: #3e606b;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 38px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.homePage .aboutUs .item-1 p {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Open Sans", sans-serif;
+  color: #797979;
+  font-style: normal;
+}
+
+.homePage .aboutUs .item-2 h5 {
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #242424;
+  margin-top: 18px;
+}
+
+.homePage .aboutUs .item-2 p {
+  font-size: 16px;
+  font-family: "Lora", serif;
+  color: #797979;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 1200px) {
+  nav .myImg {
+    display: none;
+  }
+  .homePage .slider1 .texts h1, .homePage .slider2 .texts h1 {
+    font-size: 30px;
+  }
+  .homePage .slider1 .texts p, .homePage .slider2 .texts p {
+    width: 80%;
+    font-size: 15px;
+  }
+  .homePage .slider1 .texts .button, .homePage .slider2 .texts .button {
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .homePage .menu {
+    height: auto;
+  }
+  .homePage .menu .cakeImg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .homePage .menu .cakeImg img {
+    width: 200px;
+  }
+  .homePage .menu .cakeTexts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .homePage .menu .cakeTexts h1 {
+    font-size: 40px;
+  }
+  .homePage .menu .cakeTexts p {
+    font-size: 20px;
+  }
+  .homePage .ourCakes {
+    height: auto;
+  }
+  .homePage .aboutus {
+    height: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
